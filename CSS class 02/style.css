@@ -1,0 +1,24 @@
+p {
+    color: azure;
+    background-color: blue;
+}
+
+.para {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#id1 {
+    background-color: black;
+}
+
+ul>li {
+    background-color: aquamarine;
+}
+
+h2+p {
+    background-color: rgb(223, 14, 14);
+}
+
+h2~p {
+    background-color: rgb(223, 14, 14)!important;
+}
