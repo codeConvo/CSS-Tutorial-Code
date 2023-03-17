@@ -1,0 +1,28 @@
+body{
+    background-image: url("https://yt3.googleusercontent.com/15l6VYwwGKvPv2JrrAW7uRxTwhrhC8zp6bFAmF1x-ndrUPpIJt9ghzFiz_FGFkrdXFkDJAEu=s176-c-k-c0x00ffffff-no-rj");
+background-repeat: no-repeat;
+background-position: center ;
+background-size: cover;
+}
+#box{
+    color: aliceblue;
+    background-color: blueviolet;
+    height: 300px;
+    width: 405px;
+    /* border: solid;
+    border-color: yellow;
+    border-width: 20px; */
+    border: gray 15px solid;
+    /* border-radius: 10px; */
+    border-bottom-right-radius:30px ;
+    border-top-left-radius:30px ;
+}
+#box1{
+    border: yellow 15px solid;
+    border-right: double 20px yellowgreen;
+    border-left: dotted 20px yellowgreen;
+    border-top: dashed 20px yellowgreen;
+    height: 300px;
+    width: 405px;
+
+}
