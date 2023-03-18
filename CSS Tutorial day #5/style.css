@@ -1,0 +1,21 @@
+/* body{
+    background-color: #222;
+}
+#wrap{
+    background: linear-gradient(to right,gold,purple); 
+    width: 355px;
+    padding: 3px;
+}
+#main{
+    background-color: #222;
+    color: antiquewhite;
+    padding: 3rem;
+} */
+@import url('https://fonts.googleapis.com/css2?family=Akshar:wght@300&family=Fredoka&family=Gentium+Book+Plus:ital,wght@0,400;0,700;1,400;1,700&family=Ms+Madi&family=Roboto+Condensed:ital,wght@1,300&family=Roboto+Mono:wght@100&family=Roboto:ital,wght@0,300;1,100&family=Sono:wght@200&display=swap');
+p{
+    font-family:'Poppins', sans-serif;;
+    font-weight: bolder;
+    font-size: 100px;
+    font-style:italic;
+    
+}
