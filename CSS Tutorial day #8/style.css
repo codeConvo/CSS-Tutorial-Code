@@ -1,0 +1,73 @@
+.container{
+    background-color: antiquewhite;
+    width: 600px;
+    border: 3px solid gray;
+}
+
+#box1{
+    margin: 10px;
+    border: 3px solid rgb(171, 37, 37);
+    background-color: rgb(68, 52, 32);
+    color: aliceblue;
+    padding: 10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#box2{
+    margin: 10px;
+    border: 3px solid rgb(171, 37, 37);
+    background-color: rgb(68, 52, 32);
+    color: aliceblue;
+    padding: 10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.google{
+    background-color: aqua;
+    color: #222;
+    font-weight: bold;
+    font-size: 20px;
+    text-decoration: none;
+    padding: 3px;
+    border-radius: 4px;
+}
+.google:hover{
+    background-color: #222;
+    color: antiquewhite;
+}
+
+.google:active{
+    background-color: beige;
+    color: black;
+}
+.google:visited{
+    background-color: rgb(238, 238, 9);
+    color: black;
+}
+.facbook{
+    background-color: aqua;
+    color: #222;
+    font-weight: bold;
+    font-size: 20px;
+    text-decoration: none;
+    padding: 3px;
+    border-radius: 4px;
+}
+.facbook:hover{
+    background-color: #222;
+    color: antiquewhite;
+}
+
+.facbook:active{
+    background-color: beige;
+    color: black;
+}
+.facbook:visited{
+    background-color: rgb(238, 238, 9);
+    color: black;
+}
+#para:target{
+    background-color: gold;
+}
+#para1:target{
+    background-color: gold;
+}
