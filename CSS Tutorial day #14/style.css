@@ -1,0 +1,60 @@
+.container{
+    border: 3px solid gold;
+}
+p{
+    background-color: antiquewhite;
+}
+
+
+
+
+ /* @media screen and (max-width:390px){
+    p{
+        font-size: 30px;
+        background-color: blue;
+        color: aliceblue;
+    }
+}
+
+@media screen and (min-width:1280px){
+    .container{
+        background-color: black;
+        color: azure;
+        font-size: large;
+    }
+    p{
+        font-size: 30px;
+        background-color: rgb(1, 1, 12);
+        color: aliceblue;
+    }
+} */
+
+
+.mobile{
+    font-size: 20px;
+    color: aliceblue;
+    background-color: blueviolet;
+    margin: 2px;
+}
+.lcd{
+    font-size: 20px;
+    color: aliceblue;
+    background-color: blueviolet;
+    margin: 2px;
+}
+
+@media screen and (min-width:390px) and (max-width:1280px) {
+    .lcd{
+        font-size: 50px;
+        color: rgb(10, 68, 119);
+        background-color: rgb(223, 219, 227);
+        margin: 5px;
+    }
+    .mobile{
+        font-size: 50px;
+        color: rgb(10, 68, 119);
+        background-color: rgb(223, 219, 227);
+        margin: 5px;
+    }
+    
+}
