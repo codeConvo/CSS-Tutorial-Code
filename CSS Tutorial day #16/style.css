@@ -1,0 +1,25 @@
+/* a{
+    background-color: aqua;
+} */
+
+a[title="google"]{
+    background-color: black;
+}
+
+input[type="password"]{
+    background-color: black;
+    color: aqua;
+}
+/* div :first-child{
+    background-color: aqua;
+    color: blue;
+    width: 200px;
+}
+div :nth-child(9){
+    background-color: aqua;
+    color: blue;
+    width: 200px;
+} */
+ul :nth-child(odd){
+    background-color: brown;
+}
