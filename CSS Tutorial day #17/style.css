@@ -1,0 +1,57 @@
+li::before{
+    content: "this is my navber buttons";
+    padding: 1em;
+}
+li::after{
+    content: "🌟";
+    padding: 1.5em;
+}
+
+li{
+    list-style: none;
+}
+
+
+button::before{
+    content: "👉🏾";
+}
+button::after{
+    content: "👈🏾";
+   
+}
+
+button{
+    cursor: pointer;
+}
+
+p::first-letter{
+    font:1.9em small-caps ;
+    }
+
+    p::first-line{
+        font-size: large;
+        background-color: black;
+        color: antiquewhite;
+        font-family: 'Times New Roman', Times, serif;
+        font-style: italic;
+    }
+
+    section::selection{
+        background-color: yellowgreen;
+        color: blue;
+    }
+
+    input::placeholder{
+        font-size: large;
+        font-family: ' sans-serif';
+        color: aqua;
+        background-color: rgb(0, 76, 255);
+        font-style: italic;
+    }
+
+    .heart::before{
+        content: "😍";
+    }
+    .heart::after{
+        content: "😍";
+    }
