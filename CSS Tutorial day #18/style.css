@@ -1,0 +1,40 @@
+
+
+/* .box{
+    width: 200px;
+    height: 200px;
+    background-color: gold;
+    transition-property: background-color;
+    /* transition-duration: 2s; */
+    /* transition-timing-function: ease-out;
+    transition-delay: 2s ; */
+    /* transition: all .2s ease-in 1s;
+}  */
+
+/* .box:hover{
+    background-color: aliceblue;
+}  */
+
+.box{
+    width: 200px;
+    height: 350px;
+    border: 3px solid gold;
+    transition: all 2ms ease-in-out ;
+}
+.box:hover{
+background-color: blanchedalmond;
+border-radius: 10px;
+transform: scale(1.1);
+
+}
+img{
+    display: block;
+    width: 100%;   
+}
+
+.card-text{
+    text-align: center;
+}
+.title{
+    text-align: center;
+}
