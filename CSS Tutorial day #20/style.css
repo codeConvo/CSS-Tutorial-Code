@@ -1,0 +1,43 @@
+.fa-facebook{
+    color: blue;
+    font-size: 50px;
+    margin: 10px;
+    transition: all 1s ease-in-out;
+}
+.fa-facebook:hover{
+    transform: rotate(360deg);
+
+}
+.fa-google:hover{
+    transform: rotate(360deg);
+
+}
+.fa-youtube:hover{
+    transform: rotate(360deg);
+
+}
+.fa-pinterest:hover{
+    transform: rotate(360deg);
+
+}
+.fa-google{
+    color: rgb(243, 5, 5);
+    font-size: 50px;
+    margin: 20px;
+    transition: all 1s ease-in-out;
+
+}
+.fa-pinterest{
+    color: rgb(255, 0, 0);
+    font-size: 50px;
+    margin: 20px;
+    transition: all 1s ease-in-out;
+
+}
+.fa-youtube{
+    color: rgb(255, 0, 0);
+    font-size: 50px;
+    margin: 20px;
+    transition: all 1s ease-in-out;
+
+}
