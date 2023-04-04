@@ -1,0 +1,86 @@
+.animation{
+    animation-name: kuchbhi;
+    animation-duration: 5s;
+    animation-timing-function: ease-in-out;
+    animation-delay: 2s;
+    animation-iteration-count:infinite;
+}
+.main{
+    animation-name: kuchbhi;
+    animation-duration: 5s;
+    animation-delay: 2s;
+    animation-iteration-count:infinite;
+}
+@keyframes kuchbhi{
+    from{
+        transform: translateX(0);
+    }
+    to{
+        transform: translateX(100%);
+    }
+}
+
+.fa-house{
+    font-size: 90px;
+    color: brown;
+}
+/* .fa-house{ */
+    /* animation-name: icon;
+    animation-duration: 5s;
+    animation-delay: 2s;
+    animation-iteration-count:infinite;
+
+} */
+
+@keyframes icon{
+    0%{
+        transform: translateX(0)  translateY(0);
+    }
+    25%{
+        transform: translateX(200px) translateY(0);
+    }
+    50%{
+        transform: translateX(200px) translateY(200px);
+    }
+    75%{
+        transform: translateX(0px) translateY(200px);
+    }
+    100%{
+        transform: translateX(0px) translateY(0px);
+    }
+}
+
+.container{
+    width: 200px;
+    height: 200px;
+    background-color: black;
+    position: relative;
+    animation-name: box;
+    animation-duration: 5s;
+    animation-timing-function: ease-in-out;
+    animation-delay: 2s;
+    animation-iteration-count: infinite;
+}
+@keyframes box{
+    0%{
+        top: 0;
+        left: 0;
+
+    }
+    25%{
+        top: 200px;
+        left: 0;
+        background-color: blueviolet;
+    }
+    75%{
+        top: 200px;
+        left: 200px;
+        background-color: rgb(0, 153, 255);
+    }
+    100%{
+        top: 0px;
+        left: 200px;
+        background-color: rgb(172, 242, 8);
+        width: 400px;
+    }
+}
