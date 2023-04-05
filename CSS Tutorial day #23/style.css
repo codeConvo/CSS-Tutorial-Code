@@ -1,0 +1,29 @@
+:root{
+    --my-fonts:Arial, Helvetica, sans-serif;
+    --primary-color:#ccc;
+    --my-font-size: 1em;
+    --my-border: 2px solid #222;
+    --my-width:200px;
+    --my-hight:200px;
+}
+.box{
+    width:var(--my-width) ;
+    height:var(--my-hight);
+    border:var(--my-border);
+  background-color: var(--primary-color);
+  font-family: var(--my-fonts);
+  font-size: var(--my-font-size);
+}
+.container{
+    display: flex;
+    justify-content: space-evenly;
+   
+}
+.box1{
+font-family: var(--my-fonts);
+width: var(--my-width);
+height: var(--my-hight);
+background-color: var(--primary-color);
+font-family: var(--my-fonts);
+border: var(--my-border);
+}
