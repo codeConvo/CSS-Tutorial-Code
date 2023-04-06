@@ -1,0 +1,13 @@
+.grid-container{
+    display: grid;
+    /* grid-template-columns: 100px 200px 300px auto; */
+    /* grid-template-columns: 1fr 2fr 3fr ; */
+    /* grid-template-columns: repeat(3,1fr); */
+    
+}
+.box{
+    background-color: #ccc;
+    border: 2px solid gray;
+    margin: 1rem;
+    padding: 1rem;
+}
